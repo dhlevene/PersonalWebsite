@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-image: url("./assets/codeBackgroundImage.jpg");
+  overflow: hidden;
+}
+
+.home-page{
+  min-width: 100%;
+  height: 92vh;
+}
+
+.nav-bar{
+  width: 100%;
+  min-height: 8vh;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 50s linear;
+  height: 40vmin;
+}
+
+.my-face {
+  height: 600px;
+  width: 600px;
+  z-index: 1;
+  opacity: 1;
+  position: absolute;
+  margin:auto;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+.hat1{
+  height:300px;
+  width:300px;
+  opacity: 1;
+  z-index: 2;
+  position: absolute;
+  margin-top:auto;
+  margin-bottom: auto;
+  top:0;
+  right:0;
+  bottom:280px;
+  left:-30%;
+  /* animation: Hat-slide-in 5s infinite;  */
+}
+
+.hat2{
+  height:370px;
+  width:370px;
+  opacity: 1;
+  z-index: 2;
+  position: absolute;
+  margin-top:auto;
+  margin-bottom: auto;
+  top:0;
+  right:0;
+  bottom:345px;
+  left:39%;
+  animation: Hat-slide-in 5s infinite; 
+
+  /* animation: Hat-slide-in 5s 5s 1;  */
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+
+.header-button{
+    background-color: #000;
+    color: #fff;
+}
+
+.logo-text{
+  animation: Navbar-text-colorchange 10s infinite;
+  color: #fff;
+  font-size: x-large; 
+}
+.navbar-texttt{
+  color:  #fff;
+}
+
+.nav-items{
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes Navbar-text-colorchange{
+  0% {color: red;}
+  10% {color: orange;}
+  20% {color: yellow;}
+  30% {color: yellowgreen;}
+  40% {color: green;}
+  50% {color: turquoise;}
+  60% {color: lightskyblue;}
+  70% {color: blue;}
+  80% {color: blueviolet;}
+  90% {color: violet;}
+  100% {color: purple;}
+}
+
+@keyframes Hat-slide-in{
+  0%{
+    left: -30%;
+  }
+  33%{
+    /* left: 41% */
+    left: 39%;
+  }
+  66%{
+    /* left: 41%; */
+    left: 39%;
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+
+
