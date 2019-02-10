@@ -47,7 +47,7 @@ body{
   right:0;
   bottom:280px;
   left:-30%;
-  /* animation: Hat-slide-in 5s infinite;  */
+  animation: Hat-slide-in 5s infinite; 
 }
 
 .hat2{
@@ -61,8 +61,8 @@ body{
   top:0;
   right:0;
   bottom:345px;
-  left:39%;
-  animation: Hat-slide-in 5s infinite; 
+  left:-30%;
+  /* animation: Hat-slide-in 5s infinite;  */
 
   /* animation: Hat-slide-in 5s 5s 1;  */
 }
@@ -129,11 +129,11 @@ body{
   }
   33%{
     /* left: 41% */
-    left: 39%;
+    left: 41%;
   }
   66%{
     /* left: 41%; */
-    left: 39%;
+    left: 41%;
   }
   100%{
     left: 100%;
